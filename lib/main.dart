@@ -38,7 +38,7 @@ class MyHomePage extends StatelessWidget {
               builder: (context, counterModel, child) {
                 return Text(
                   '${counterModel.counter}',
-                  style: Theme.of(context).textTheme.headline4,
+                  style: Theme.of(context).textTheme.headlineMedium,
                 );
               },
             ),
